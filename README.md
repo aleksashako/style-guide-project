@@ -55,7 +55,6 @@ mkdocs build --strict
 
 При изменениях в `main` GitHub Actions запускает проверки Markdown, а затем публикует сайт командой `mkdocs gh-deploy --force`. MkDocs собирает HTML-файлы и отправляет их в ветку `gh-pages`.
 
-
 ## Структура репозитория
 
 - `docs/` — исходные страницы стайлгайда;
