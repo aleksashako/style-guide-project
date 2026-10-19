@@ -14,5 +14,22 @@ nav:
   - Доступность текста: accessibility.md
 
 theme:
-  name: mkdocs
-  locale: ru
+  name: material
+  language: ru
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+plugins:
+  - search:
+      lang:
+        - ru
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
