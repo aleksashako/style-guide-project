@@ -5,13 +5,13 @@ site_dir: site
 
 nav:
   - Главная: index.md
-  - Стайлгайд:
-      - Тон коммуникации: tone-of-voice.md
-      - Терминология и форматы: glossary-and-formats.md
-      - Веб-интерфейс: web-interface.md
-      - Инструкции: instructions.md
-      - Системные сообщения: system-messages.md
-      - Предупреждения: warnings.md
+  - Тон коммуникации: tone-of-voice.md
+  - Терминология и форматы: glossary-and-formats.md
+  - Веб-интерфейс: web-interface.md
+  - Инструкции: instructions.md
+  - Системные сообщения: system-messages.md
+  - Предупреждения: warnings.md
+  - Доступность текста: accessibility.md
 
 theme:
   name: mkdocs
